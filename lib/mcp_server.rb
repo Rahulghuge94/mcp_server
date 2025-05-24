@@ -243,7 +243,7 @@ module MCP
   
   # TCP Transport
   class TCPTransport < Transport
-    def initialize(host, port)
+    def initialize(host='localhost', port= 8080)
       @host = host
       @port = port
       @socket = nil
@@ -282,6 +282,55 @@ module MCP
       @socket&.close
       @socket = nil
       @logger.info("Connection closed")
+    end
+  end
+  
+  # HTTP Transport (WEBrick-based, for server-side)
+  class HttpTransport < Transport
+    def initialize(port = 8081)
+      @port = port
+      @logger = Logger.new(STDERR)
+      @logger.level = Logger::INFO
+      @queue = Queue.new
+      @server = WEBrick::HTTPServer.new(Port: @port, Logger: @logger, AccessLog: [])
+      @server.mount_proc "/" do |req, res|
+        if req.request_method == 'POST'
+          begin
+            @logger.debug("Received HTTP POST: #{req.body}")
+            @queue << req.body
+            # Wait for response to be set by send_message
+            response_json = @queue.pop
+            res['Content-Type'] = 'application/json'
+            res.body = response_json
+            @logger.debug("Sent HTTP Response: #{response_json}")
+          rescue => e
+            res.status = 500
+            res.body = { error: e.message }.to_json
+          end
+        else
+          res.status = 405
+          res.body = 'Method Not Allowed'
+        end
+      end
+      @thread = Thread.new { @server.start }
+    end
+
+    def send_message(message)
+      json_str = message.to_json
+      @queue << json_str
+    end
+
+    def receive_message
+      # Wait for a message from HTTP POST
+      line = @queue.pop
+      return nil if line.nil? || line.strip.empty?
+      @logger.debug("Processing HTTP message: #{line}")
+      Message.from_json(line)
+    end
+
+    def close
+      @server.shutdown if @server
+      @thread&.kill
     end
   end
   
