@@ -1,0 +1,33 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore installed gems
+/vendor/
+
+# Ignore log files and temp files
+/log/
+/tmp/
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Ruby specific files
+*.gem
+
+# Ignore editor/project files
+*.swp
+*.swo
+*.bak
+*.tmp
+.idea/
+.vscode/
+
+# Ignore coverage and test results
+/coverage/
+/test/tmp/
+/spec/tmp/
+
+# Ignore byebug command history
+.byebug_history
