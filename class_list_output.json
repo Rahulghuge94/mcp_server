@@ -1,0 +1,1368 @@
+{
+  "WSNetSelectionList": {
+    "instance_methods": {
+      "object_id": [
+        
+      ],
+      "count": [
+      ],
+      "from_row_objects": [
+      ],
+      "group_count": [
+
+      ],
+      "group_description": [
+      ],
+      "group_type": [
+      ],
+      "load_from_network": [
+        
+      ],
+      "make_selections_in_network": [
+        
+      ],
+      "save_to_selection_mo": [
+      ],
+      "to_row_objects": [
+      ]
+    },
+    "class_methods": {
+      "new": [
+
+      ]
+    }
+  },
+  "WSBounds": {
+    "instance_methods": {
+      "to_s": [
+
+      ],
+      "clear": [
+
+      ],
+      "add_coord": [
+        
+      ],
+      "add_bounds": [
+      ],
+      "set": [
+        
+        
+        
+      ],
+      "valid": [
+
+      ],
+      "valid?": [
+
+      ],
+      "inside": [
+        
+      ],
+      "overlap": [
+      ],
+      "xmin": [
+
+      ],
+      "xmax": [
+
+      ],
+      "ymin": [
+
+      ],
+      "ymax": [
+
+      ],
+      "cx": [
+
+      ],
+      "cy": [
+
+      ],
+      "dx": [
+
+      ],
+      "dy": [
+
+      ],
+      "inflate": [
+      ]
+    },
+    "class_methods": {
+      "new": [
+
+      ]
+    }
+  },
+  "WSOpenNetwork": {
+    "instance_methods": {
+      "list_timesteps": [
+
+      ],
+      "timestep_count": [
+
+      ],
+      "clear_selection": [
+
+      ],
+      "current_timestep": [
+
+      ],
+      "current_timestep_time": [
+
+      ],
+      "current_timestep=": [
+      ],
+      "delete_selection": [
+
+      ],
+      "each_selected": [
+
+      ],
+      "export_IDs": [
+        
+      ],
+      "field_names": [
+      ],
+      "gauge_timestep_count": [
+
+      ],
+      "gauge_timestep_time": [
+      ],
+      "geometry_mbr": [
+      ],
+      "list_gauge_timesteps": [
+
+      ],
+      "load_selection": [
+      ],
+      "MDB_export": [
+        
+      ],
+      "new_row_object": [
+      ],
+      "network_model_object": [
+
+      ],
+      "row_object": [
+        
+      ],
+      "row_objects": [
+      ],
+      "row_objects_selection": [
+      ],
+      "row_objects_from_asset_id": [
+        
+      ],
+      "row_object_collection": [
+      ],
+      "row_object_collection_selection": [
+      ],
+      "save_selection": [
+      ],
+      "search_at_point": [
+        
+        
+        
+      ],
+      "selection_size": [
+
+      ],
+      "table_names": [
+
+      ],
+      "tables": [
+
+      ],
+      "timestep_time": [
+      ],
+      "transaction_begin": [
+
+      ],
+      "transaction_commit": [
+
+      ],
+      "transaction_rollback": [
+
+      ],
+      "reproject_model_csv_files": [
+        
+      ],
+      "add_scenario": [
+        
+        
+      ],
+      "cancel_mesh_job": [
+      ],
+      "commit_bypassing_validation": [
+      ],
+      "current_scenario": [
+
+      ],
+      "current_scenario=": [
+      ],
+      "delete_scenario": [
+      ],
+      "download_mesh_job_log": [
+        
+      ],
+      "Examiner_import": [
+        
+      ],
+      "choicelists_json": [
+
+      ],
+      "get_string_pref": [
+        
+        
+      ],
+      "InfoAsset_Planner_import": [
+        
+        
+        
+      ],
+      "intersect": [
+      ],
+      "load_mesh_job": [
+      ],
+      "MACP_export": [
+        
+      ],
+      "MACP_import": [
+        
+      ],
+      "objects_in_polygon": [
+        
+      ],
+      "mesh": [
+      ],
+      "mesh_async": [
+      ],
+      "mscc_export_cctv_surveys": [
+        
+        
+        
+      ],
+      "mscc4_export_cctv_surveys": [
+        
+        
+        
+      ],
+      "table": [
+      ],
+      "mscc_export_manhole_surveys": [
+        
+        
+        
+      ],
+      "mscc_import_cctv_surveys": [
+        [
+          "rest"
+        ]
+      ],
+      "mesh_job_status": [
+      ],
+      "mscc_import_manhole_surveys": [
+        
+        
+        
+        
+        
+      ],
+      "PACP_export": [
+        
+      ],
+      "mscc5_export_cctv_surveys": [
+        
+        
+        
+      ],
+      "pacp_import_from_attachments": [
+        [
+          "rest"
+        ]
+      ],
+      "open_mo_layer_list": [
+      ],
+      "mscc_import_from_attachments": [
+        [
+          "rest"
+        ]
+      ],
+      "put_string_pref": [
+        
+      ],
+      "ribx_export_surveys": [
+        
+        
+      ],
+      "pacp_import_cctv_surveys": [
+        [
+          "rest"
+        ]
+      ],
+      "run_inference": [
+        
+        
+        
+        
+      ],
+      "ribx_import_surveys": [
+        
+        
+        
+        
+      ],
+      "run_stored_query_object": [
+      ],
+      "run_SQL": [
+        
+      ],
+      "set_projection_string": [
+      ],
+      "scenarios": [
+
+      ],
+      "snapshot_export": [
+      ],
+      "set_projection_bounds": [
+      ],
+      "snapshot_scan": [
+      ],
+      "snapshot_import": [
+      ],
+      "snapshot_import_ex": [
+        
+      ],
+      "snapshot_export_ex": [
+        
+      ],
+      "XPRAFTS_import": [
+        
+        
+        
+        
+      ],
+      "SWMM_import": [
+        
+      ],
+      "InfoDrainage_import": [
+        
+      ],
+      "XPSWMM_XPX_import": [
+        
+      ],
+      "update_cctv_scores_std": [
+      ],
+      "update_cctv_scores": [
+
+      ],
+      "validate": [
+      ],
+      "model_object": [
+
+      ],
+      "each": [
+
+      ],
+      "revert": [
+
+      ],
+      "befdss_export": [
+        
+        
+        
+        
+      ],
+      "befdss_import_cctv": [
+        
+        
+        
+        
+        
+        
+      ],
+      "befdss_import_manhole_surveys": [
+        
+        
+        
+        
+        
+        
+      ],
+      "cctv_standard": [
+
+      ],
+      "commit": [
+      ],
+      "csv_export": [
+        
+      ],
+      "csv_import": [
+        
+      ],
+      "field_choices": [
+        
+      ],
+      "field_choice_descriptions": [
+        
+      ],
+      "close": [
+
+      ],
+      "get_projection_string": [
+        [
+          "rest"
+        ]
+      ],
+      "get_projection_bounds": [
+        [
+          "rest"
+        ]
+      ],
+      "GIS_export": [
+        
+        
+      ],
+      "list_GIS_export_tables": [
+
+      ],
+      "mhsurvey_standard": [
+
+      ],
+      "odic_import": [
+        [
+          "rest"
+        ]
+      ],
+      "odic_import_ex": [
+        [
+          "rest"
+        ]
+      ],
+      "odec_export": [
+        [
+          "rest"
+        ]
+      ],
+      "odec_export_ex": [
+        [
+          "rest"
+        ]
+      ]
+    }
+  },
+  "WSModelObjectCollection": {
+    "instance_methods": {
+      "[]": [
+      ],
+      "each": [
+
+      ],
+      "count": [
+
+      ]
+    }
+  },
+  "WSRiskAnalysisRunObject": {
+    "instance_methods": {
+      "run": [
+
+      ],
+      "run_ex": [
+      ]
+    }
+  },
+  "WSSimObject": {
+    "instance_methods": {
+      "status": [
+
+      ],
+      "run": [
+
+      ],
+      "list_timesteps": [
+
+      ],
+      "list_results_GIS_export_tables": [
+
+      ],
+      "results_GIS_export": [
+        
+        
+        
+      ],
+      "timestep_count": [
+
+      ],
+      "list_max_results_attributes": [
+
+      ],
+      "list_results_attributes": [
+
+      ],
+      "max_flood_contours_export": [
+        
+        
+        
+      ],
+      "max_results_binary_export": [
+        
+        
+      ],
+      "max_results_csv_export": [
+        
+        
+      ],
+      "results_binary_export": [
+        
+        
+      ],
+      "results_csv_export": [
+        
+      ],
+      "results_csv_export_ex": [
+        
+        
+      ],
+      "results_path": [
+
+      ],
+      "run_ex": [
+        [
+          "rest"
+        ]
+      ],
+      "success_substatus": [
+
+      ],
+      "single_result_csv_export": [
+        
+        
+        
+      ]
+    }
+  },
+  "WSNumbatNetworkObject": {
+    "instance_methods": {
+      "update": [
+
+      ],
+      "branch": [
+        
+      ],
+      "commits": [
+
+      ],
+      "current_commit_id": [
+
+      ],
+      "latest_commit_id": [
+
+      ],
+      "open_version": [
+      ],
+      "reserve": [
+
+      ],
+      "revert": [
+
+      ],
+      "uncommitted_changes?": [
+
+      ],
+      "unreserve": [
+
+      ],
+      "befdss_export": [
+        
+        
+        
+        
+      ],
+      "befdss_import_cctv": [
+        
+        
+        
+        
+        
+        
+      ],
+      "befdss_import_manhole_surveys": [
+        
+        
+        
+        
+        
+        
+      ],
+      "cctv_standard": [
+
+      ],
+      "choices": [
+        
+      ],
+      "commit": [
+      ],
+      "commit_reserve": [
+      ],
+      "csv_changes": [
+        
+        
+      ],
+      "csv_changes_inm": [
+        
+        
+      ],
+      "field_choices": [
+        
+      ],
+      "field_choice_descriptions": [
+        
+      ],
+      "get_projection_string": [
+      ],
+      "get_projection_bounds": [
+      ],
+      "GIS_export": [
+        
+        
+      ],
+      "list_GIS_export_tables": [
+
+      ],
+      "mhsurvey_standard": [
+
+      ],
+      "odic_import": [
+        [
+          "rest"
+        ]
+      ],
+      "odec_export": [
+        [
+          "rest"
+        ]
+      ],
+      "select_sql": [
+        
+      ],
+      "select_clear": [
+
+      ],
+      "select_count": [
+
+      ],
+      "select_changes": [
+      ],
+      "user_field_names": [
+        
+      ],
+      "vapar_import": [
+      ]
+    }
+  },
+  "WSBaseNetworkObject": {
+    "instance_methods": {
+      "csv_export": [
+        
+      ],
+      "csv_import": [
+        
+      ],
+      "odic_import_ex": [
+        [
+          "rest"
+        ]
+      ],
+      "odec_export_ex": [
+        [
+          "rest"
+        ]
+      ],
+      "remove_local": [
+
+      ]
+    }
+  },
+  "WSModelObject": {
+    "instance_methods": {
+      "==": [
+      ],
+      "!=": [
+      ],
+      "[]": [
+      ],
+      "[]=": [
+        
+      ],
+      "name": [
+
+      ],
+      "delete": [
+
+      ],
+      "path": [
+
+      ],
+      "open": [
+
+      ],
+      "name=": [
+      ],
+      "id": [
+
+      ],
+      "type": [
+
+      ],
+      "comment": [
+
+      ],
+      "new_model_object": [
+        
+      ],
+      "bulk_delete": [
+
+      ],
+      "children": [
+
+      ],
+      "comment=": [
+      ],
+      "deletable?": [
+
+      ],
+      "find_child_object": [
+        
+      ],
+      "find_child_model_object": [
+        
+      ],
+      "modified_by": [
+
+      ],
+      "parent_type": [
+
+      ],
+      "parent_id": [
+
+      ],
+      "compare": [
+      ],
+      "compare_results_to_file": [
+        
+        
+      ],
+      "compare_to_csv": [
+        
+        
+      ],
+      "copy_here": [
+        
+        
+      ],
+      "csv_import_tvd": [
+        
+        
+      ],
+      "delete_results": [
+
+      ],
+      "duplicate_model_object": [
+      ],
+      "export": [
+        
+      ],
+      "import_data": [
+        
+      ],
+      "import_flow_survey_data_from_generic_CSV_file": [
+        
+        
+      ],
+      "import_new_model_object": [
+        [
+          "rest"
+        ]
+      ],
+      "import_new_model_object_from_generic_CSV_files": [
+        
+        
+        
+      ],
+      "import_new_sw_model_object": [
+        [
+          "rest"
+        ]
+      ],
+      "import_all_sw_model_objects": [
+        [
+          "rest"
+        ]
+      ],
+      "import_grid_ground_model": [
+        
+        
+      ],
+      "import_layer_list": [
+        
+      ],
+      "import_tvd": [
+        
+        
+      ],
+      "new_run": [
+        
+        
+        
+        
+        
+      ],
+      "new_risk_analysis_run": [
+        
+        
+        
+      ],
+      "new_synthetic_rainfall": [
+        
+        
+      ],
+      "tvd_unit_type": [
+
+      ],
+      "tvd_unit_type=": [
+      ],
+      "update_dashboard": [
+
+      ],
+      "update_to_latest": [
+
+      ],
+      "import_infodrainage_object": [
+        
+        
+      ]
+    }
+  },
+  "WSDatabase": {
+    "instance_methods": {
+      "path": [
+
+      ],
+      "close": [
+
+      ],
+      "file_root": [
+
+      ],
+      "find_root_model_object": [
+        
+      ],
+      "guid": [
+
+      ],
+      "list_read_write_run_fields": [
+
+      ],
+      "model_object": [
+      ],
+      "model_object_collection": [
+      ],
+      "model_object_from_type_and_guid": [
+        
+      ],
+      "model_object_from_type_and_id": [
+        
+      ],
+      "new_network_name": [
+        
+        
+        
+      ],
+      "scripting_name_of_type": [
+      ],
+      "new_model_object": [
+        
+      ],
+      "result_root": [
+
+      ],
+      "root_model_objects": [
+
+      ],
+      "user_field_descriptions": [
+
+      ],
+      "browse_for_object": [
+        
+      ],
+      "copy_into_root": [
+        
+        
+      ],
+      "custom_schema": [
+      ],
+      "get_access_token_for_url": [
+        
+      ]
+    },
+    "class_methods": {
+      "update_standalone": [
+        
+        
+      ]
+    }
+  },
+  "WSApplication": {
+    "instance_methods": {
+    },
+    "class_methods": {
+      "open": [
+        [
+          "rest"
+        ]
+      ],
+      "add_ons_folder": [
+
+      ],
+      "create": [
+        [
+          "rest"
+        ]
+      ],
+      "create_transportable": [
+        [
+          "rest"
+        ]
+      ],
+      "local_root": [
+
+      ],
+      "working_folder": [
+
+      ],
+      "results_folder": [
+
+      ],
+      "log_event": [
+        
+      ],
+      "map_component": [
+
+      ],
+      "map_component=": [
+      ],
+      "ui?": [
+
+      ],
+      "override_user_unit": [
+        
+      ],
+      "override_user_units": [
+      ],
+      "override_working_folder": [
+      ],
+      "script_file": [
+
+      ],
+      "set_exit_code": [
+      ],
+      "set_local_root": [
+      ],
+      "set_working_folder": [
+      ],
+      "set_results_folder": [
+      ],
+      "use_user_units": [
+
+      ],
+      "use_user_units?": [
+
+      ],
+      "use_user_units=": [
+      ],
+      "use_UTF8": [
+
+      ],
+      "use_UTF8?": [
+
+      ],
+      "use_UTF8=": [
+      ],
+      "version": [
+
+      ],
+      "post_debug": [
+      ],
+      "use_arcgis_desktop_licence": [
+
+      ],
+      "wds_query_databases": [
+        
+      ],
+      "compare_binary_results_files": [
+        
+        
+        
+      ],
+      "connect_local_agent": [
+      ],
+      "launch_sims": [
+        
+        
+        
+        
+      ],
+      "launch_sims_ex": [
+        
+      ],
+      "wait_for_jobs": [
+        
+        
+      ],
+      "cancel_job": [
+      ],
+      "check_out_engine_licence": [
+        
+        
+      ],
+      "check_in_engine_licence": [
+        
+      ],
+      "checked_out_engine_licence_time_to_expiry": [
+
+      ],
+      "check_out_engine_licence_ex": [
+        
+        
+        
+      ],
+      "check_in_engine_licence_ex": [
+        
+        
+      ],
+      "checked_out_engine_licence_time_to_expiry_ex": [
+      ],
+      "use_checked_out_engine_licence?": [
+
+      ],
+      "use_checked_out_engine_licence=": [
+      ]
+    }
+  },
+  "WSCommit": {
+    "instance_methods": {
+      "branch_id": [
+
+      ],
+      "comment": [
+
+      ],
+      "commit_id": [
+
+      ],
+      "date": [
+
+      ],
+      "deleted_count": [
+
+      ],
+      "inserted_count": [
+
+      ],
+      "modified_count": [
+
+      ],
+      "setting_changed_count": [
+
+      ],
+      "user": [
+
+      ]
+    }
+  },
+  "WSCommits": {
+    "instance_methods": {
+      "[]": [
+      ],
+      "length": [
+
+      ],
+      "each": [
+
+      ]
+    }
+  },
+  "WSValidation": {
+    "instance_methods": {
+      "object_id": [
+
+      ],
+      "message": [
+
+      ],
+      "priority": [
+
+      ],
+      "field": [
+
+      ],
+      "code": [
+
+      ],
+      "field_description": [
+
+      ],
+      "object_type": [
+
+      ],
+      "type": [
+
+      ],
+      "scenario": [
+
+      ]
+    }
+  },
+  "WSValidations": {
+    "instance_methods": {
+      "[]": [
+      ],
+      "length": [
+
+      ],
+      "each": [
+
+      ],
+      "error_count": [
+
+      ],
+      "warning_count": [
+
+      ]
+    }
+  },
+  "WSFieldInfo": {
+    "instance_methods": {
+      "size": [
+
+      ],
+      "name": [
+
+      ],
+      "description": [
+
+      ],
+      "fields": [
+
+      ],
+      "data_type": [
+
+      ],
+      "read_only?": [
+
+      ],
+      "has_time_varying_results?": [
+
+      ],
+      "has_max_result?": [
+
+      ]
+    }
+  },
+  "WSTableInfo": {
+    "instance_methods": {
+      "name": [
+
+      ],
+      "description": [
+
+      ],
+      "fields": [
+
+      ],
+      "results_fields": [
+
+      ],
+      "tableinfo_json": [
+
+      ],
+      "primaryrelationships_json": [
+
+      ],
+      "primaryrelationships": [
+
+      ],
+      "assetnetworktableclass": [
+
+      ]
+    }
+  },
+  "WSRowObjectCollection": {
+    "instance_methods": {
+      "[]": [
+      ],
+      "length": [
+
+      ],
+      "each": [
+
+      ]
+    }
+  },
+  "WSStructureRow": {
+    "instance_methods": {
+      "[]": [
+      ],
+      "[]=": [
+        
+      ],
+      "method_missing": [
+        [
+          "rest"
+        ]
+      ]
+    }
+  },
+  "WSStructure": {
+    "instance_methods": {
+      "[]": [
+      ],
+      "length": [
+
+      ],
+      "size": [
+
+      ],
+      "each": [
+
+      ],
+      "write": [
+
+      ],
+      "length=": [
+      ],
+      "size=": [
+      ]
+    }
+  },
+  "WSLink": {
+    "instance_methods": {
+      "us_node": [
+
+      ],
+      "ds_node": [
+
+      ]
+    }
+  },
+  "WSNode": {
+    "instance_methods": {
+      "ds_links": [
+
+      ],
+      "us_links": [
+
+      ]
+    }
+  },
+  "WSRowObject": {
+    "instance_methods": {
+      "[]": [
+      ],
+      "[]=": [
+        
+      ],
+      "method_missing": [
+        [
+          "rest"
+        ]
+      ],
+      "delete": [
+
+      ],
+      "result": [
+      ],
+      "write": [
+
+      ],
+      "autoname": [
+
+      ],
+      "category": [
+
+      ],
+      "contains?": [
+      ],
+      "field": [
+      ],
+      "gauge_results": [
+      ],
+      "id": [
+
+      ],
+      "id=": [
+      ],
+      "is_inside?": [
+      ],
+      "make_unique_id": [
+
+      ],
+      "navigate": [
+      ],
+      "navigate1": [
+      ],
+      "objects_in_polygon": [
+      ],
+      "results": [
+      ],
+      "selected": [
+
+      ],
+      "selected?": [
+
+      ],
+      "selected=": [
+      ],
+      "table": [
+
+      ],
+      "table_info": [
+
+      ],
+      "save_attachment": [
+        
+        
+        
+      ]
+    }
+  },
+  "WSSWMMRunBuilder": {
+    "instance_methods": {
+      "[]": [
+      ],
+      "[]=": [
+        
+      ],
+      "load": [
+      ],
+      "validate": [
+
+      ],
+      "list_parameters": [
+
+      ],
+      "create_new_run": [
+      ],
+      "get_run_mo": [
+
+      ]
+    },
+    "class_methods": {
+      "new": [
+
+      ]
+    }
+  }
+}

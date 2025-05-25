@@ -23,11 +23,11 @@ server.add_tool(open_db_tool) do |args|
   begin
     dbname = args["dbname"]
     if dbname.nil? || dbname.to_s.strip.empty?
-      $db = WSApplication.Open
+      $db = WSApplication.open
     else
-      $db = WSApplication.Open(dbname)
+      $db = WSApplication.open(dbname)
     end
-    { status: 'success', message: "Database opened", dbname: $db.name }
+    { status: 'success', message: "Database opened", dbname: dbname }
   rescue => e
     { status: 'error', message: e.message }
   end
