@@ -754,5 +754,5 @@ class ICMMCPServer
 end
 
 # To run the server:
-# server = ICMMCPServer.new
-# server.run
+server = ICMMCPServer.new
+server.run
