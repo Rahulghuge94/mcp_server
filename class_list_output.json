@@ -2,14 +2,12 @@
   "WSNetSelectionList": {
     "instance_methods": {
       "object_id": [
-        
       ],
       "count": [
       ],
       "from_row_objects": [
       ],
       "group_count": [
-
       ],
       "group_description": [
       ],
@@ -46,23 +44,16 @@
       "add_bounds": [
       ],
       "set": [
-        
-        
-        
       ],
       "valid": [
-
       ],
       "valid?": [
-
       ],
       "inside": [
-        
       ],
       "overlap": [
       ],
       "xmin": [
-
       ],
       "xmax": [
 
@@ -1280,18 +1271,14 @@
         ]
       ],
       "delete": [
-
       ],
       "result": [
       ],
       "write": [
-
       ],
       "autoname": [
-
       ],
       "category": [
-
       ],
       "contains?": [
       ],
@@ -1300,14 +1287,12 @@
       "gauge_results": [
       ],
       "id": [
-
       ],
       "id=": [
       ],
       "is_inside?": [
       ],
       "make_unique_id": [
-
       ],
       "navigate": [
       ],
@@ -1318,23 +1303,16 @@
       "results": [
       ],
       "selected": [
-
       ],
       "selected?": [
-
       ],
       "selected=": [
       ],
       "table": [
-
       ],
       "table_info": [
-
       ],
       "save_attachment": [
-        
-        
-        
       ]
     }
   },

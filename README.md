@@ -24,7 +24,7 @@ Model Context Protocol (MCP) implementation in Ruby 2.4.xx.
 │   └── mcp_server.rb        # Main library file
 ├── scripts/
 │   ├── icm_mcp_server.rb    # ICM-specific server script
-│   ├── mcp_server.rb        # General server script
+│   └── mcp_server.rb        # General server script
 ```
 
 ## Installation
@@ -42,19 +42,15 @@ Model Context Protocol (MCP) implementation in Ruby 2.4.xx.
 
 ## Usage
 
-You can run the MCP server using the provided scripts. For example:
+You can run the MCP server using the provided scripts. STDIO Mode. For example:
 
 ```powershell
 ruby scripts/icm_mcp_server.rb
 ```
 
-To use a specific protocol version, run the corresponding script in `scripts/v0x/`:
+`:
 
-```powershell
-ruby scripts/v01/mcp_server.rb
-```
-
-For integration with InfoWorks ICM:
+Example For integration with InfoWorks ICM:
 
 ```powershell
 ruby scripts/icm_mcp_server.rb
@@ -83,7 +79,7 @@ ruby scripts/icm_mcp_server.rb
     }
    ```
    if vscode doesnt understand the iexchange command enter full path to iexchange.exe
-   i.e. C:\Program Files\Innovyze\Infoworks ICM 2024.5c\iexchange.exe
+   i.e. C:\Program Files\Innovyze\Infoworks ICM 2024.5\iexchange.exe
 
 ### Claude Desktop Setup
 
