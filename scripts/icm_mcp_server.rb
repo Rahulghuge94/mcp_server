@@ -4,7 +4,7 @@
 # This particular implementation is designed to work with StdIo mode.
 
 require 'thread'
-require 'datetime'
+# require 'date'
 require 'json'
 require_relative 'mcp_server'
 
@@ -582,6 +582,8 @@ class ICMMCPServer
       { status: 'success', model_object: mo }
     when "model_object_collection"
       moc = @db.model_object_collection(args["type"])
+      # Convert collection to array of model objects
+      moc = moc.map { |mo| mo.to_h } # Assuming to_h returns a hash representation
       { status: 'success', collection: moc }
     when "model_object_from_type_and_guid"
       mo = @db.model_object_from_type_and_guid(args["type"], args["guid"])
